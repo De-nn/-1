@@ -9,7 +9,7 @@ start = time.time()
 n = 1
 v = B
 
-while v <= A * B: 
+while v>0: 
     if v % A == 0:
         print(n)
         break
